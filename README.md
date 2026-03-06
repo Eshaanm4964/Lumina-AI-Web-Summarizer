@@ -2,6 +2,8 @@
 
 Lumina AI is a high-performance Chrome extension that provides real-time, professional-grade executive summaries of web content. Powered by the Groq Llama-3 API, it features a premium "editor-style" UI and structured strategic insights.
 
+![Lumina AI Demo](demo_video.webp)
+
 ## Features
 - **Real-Time Streaming**: Watch summaries appear live.
 - **Executive Formatting**: Professional headers and clear structure (Executive Summary, Key Highlights, Strategic Insight).

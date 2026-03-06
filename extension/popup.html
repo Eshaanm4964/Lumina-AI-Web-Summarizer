@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Summarizer</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🔮</span>
+                <h1>Lumina AI</h1>
+            </div>
+            <p class="tagline">Intelligent Real-Time Summaries</p>
+        </header>
+
+        <div class="content">
+            <div id="output-container" class="output-container">
+                <div id="placeholder" class="placeholder">
+                    <p>Open a webpage and click summarize to get started.</p>
+                </div>
+                <div id="summary-content" class="summary-content hidden"></div>
+            </div>
+        </div>
+
+        <footer>
+            <button id="summarize-btn" class="primary-btn">
+                <span class="btn-text">Summarize Page</span>
+                <div class="loader hidden"></div>
+            </button>
+            <div id="status" class="status-bar hidden">Summarizing...</div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
